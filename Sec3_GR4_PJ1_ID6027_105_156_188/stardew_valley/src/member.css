@@ -1,0 +1,132 @@
+/* ----------------- Member page CSS ----------------- */
+
+/* Set BG */
+body 
+    {
+        background: url("https://cdn.discordapp.com/attachments/801737148193570817/811984978510348328/image0.png") no-repeat center center fixed; 
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+/* Center the member */
+.member {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Set the container box */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    white-space: initial;
+    word-wrap: break-word
+    
+}
+
+/* Set the column */
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    background-color:rgba(226, 237, 247, 0.2);
+    color: #fff;
+    border-width: 8px;
+    border-style: inset;
+    border-top-color: #e7c3ff;
+    border-right-color: #c3d8ff;
+    border-left-color: #e0ffe5;
+    border-bottom-color: #fcd9c3;
+}
+
+/* Set dummy text */
+.dummy_text {
+    padding-bottom: 10px;
+    opacity: 100%;
+}
+
+/* Media screen setting */
+@media screen and (min-width: 786px){
+    body 
+    {
+        background: url("https://cdn.discordapp.com/attachments/801737148193570817/811984978510348328/image0.png") no-repeat center center fixed; 
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    .column{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+        margin: 10px;
+        background-color:rgba(226, 237, 247, 0.2);
+        color: #fff;
+        border-width: 8px;
+        border-style: inset;
+        border-top-color: #e7c3ff;
+        border-right-color: #c3d8ff;
+        border-left-color: #e0ffe5;
+        border-bottom-color: #fcd9c3;
+        width: 35%;
+    }
+}
+
+/* ----------------- NAV BAR----------------- */
+
+/* Add a background color to the top nav and the font */
+.topnav 
+{
+  background-color: rgb(170, 226, 175);
+  overflow: hidden;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a 
+{
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover 
+{
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active 
+{
+  background-color: #f1e182;
+  color: rgb(0, 0, 0);
+  font-size: large;
+}
+
+/* Gimme some more space at the right side */
+.navspace
+{
+  padding-right: 8px;
+}
+
+/* Center everything */
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 100%;
+    text-align: center;
+    height: 200px;
+}
+
+/* <!-- Done by Tian/ Beautiful colorrrr --> */
+/* The code is very much cleaner than me/ LT */

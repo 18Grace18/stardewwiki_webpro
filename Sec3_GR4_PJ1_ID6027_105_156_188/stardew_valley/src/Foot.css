@@ -1,0 +1,53 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) 
+{
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) 
+{
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+
+/* ----------------- Universal CSS ----------------- */
+
+/* Set BG */
+html, body 
+{ 
+  height: 100%; 
+  margin: 0;
+  padding: 0;
+  background: url("https://cdn.discordapp.com/attachments/801737148193570817/811984978510348328/image0.png") no-repeat center center fixed; 
+}
+
+/* Center class to make everything center */
+.center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 100%;
+}
+
+/* Just a sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Footer setting */
+.footer
+{
+ background-color: rgb(170, 226, 175);
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ color: #000000;
+ text-align: center;
+ padding: 14px 16px 20px 20px;
+ text-decoration: none;
+ font-size: 17px;
+ display: block;
+}
+
+/* <!-- Done by LT/ Sorry for the messy code--> */
